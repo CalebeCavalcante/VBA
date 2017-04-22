@@ -72,7 +72,7 @@ Public Function getUltimaColuna(ByRef wsPlan As Worksheet, Optional lRowHead As 
     '   Por que não usar UsedRange.Columns.Count ?
     '   É possível implementar sim um algoritimo com essa função, porém o UsedRange começa a partir da célula onde
     '   os dados começam (e.g. E50:E500), sendo assim, neste exemplo o UsedRange.Columns.Count seria 1 (i.e. Column(E) to Column(E) )
-    '   porém a última coluna ainda seria E (i.e. A to E).
+    '   porém a última coluna ainda seria 5 (i.e. A to E).
 	
     On Error GoTo Fail
    
