@@ -55,7 +55,7 @@ Public Function getUltimaLinha(ByRef wsPlan As Worksheet) As Long
      
     Next
     
-    getUltimaLinha = lRows
+    getUltimaLinha = lUltRow
     
     Exit Function
 Fail:
@@ -84,6 +84,7 @@ Public Function getUltimaColuna(ByRef wsPlan As Worksheet, Optional lRowHead As 
     '  Obs.: cells:  1 & wsPlan.Columns.Count pois o arquivo pode ir até a coluna XFD(xlsx) ou IV(xls).
     getUltimaColuna = wsPlan.Cells(lRowHead, wsPlan.Columns.Count).End(xlToLeft).Column
     
+	Exit Function
 Fail:
     getUltimaColuna = 0
 
