@@ -32,8 +32,8 @@ Public Function getUltimaLinha(ByRef wsPlan As Worksheet) As Long
     '   É possível implementar sim um algoritimo com essa função, porém o UsedRange começa a partir da célula onde
     '   os dados começam (e.g. E50:E500), sendo assim, neste exemplo o UsedRange.Rows.Count seria 450 (i.e. Row(50) - (Row500) )
     '   porém a última linha ainda seria 500.
-        
-    Dim lColumns As Long, lRows As Long, lUltCol As Long, lUltRow As Long, lColunaTitulos As Long
+	
+	Dim lColumns As Long, lRows As Long, lUltCol As Long, lUltRow As Long, lColunaTitulos As Long, lRowHead as Long
     
     On Error GoTo Fail
     
