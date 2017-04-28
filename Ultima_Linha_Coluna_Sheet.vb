@@ -1,4 +1,6 @@
 
+' Autor: Calebe Cavalcante <calebesantos.cavalcante@gmail.com>
+
 Public Sub Exemplo_Get_Dados()
     Dim MySheet As Worksheet
     Dim LastRow As Long
