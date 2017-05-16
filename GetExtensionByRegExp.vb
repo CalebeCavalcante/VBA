@@ -1,10 +1,10 @@
-	'@Author: Calebe Cavalcante <calebesantos.cavalcante@gmail.com>
+    '@Author: Calebe Cavalcante <calebesantos.cavalcante@gmail.com>
     
     '@Parameters: 
-	'#	sFileName: Esperado nome de arquivo com a extensão no final
-	
+    '#  sFileName: Esperado nome de arquivo com a extensão no final
+    
     '@Return: (String) Extensão do Arquivo passado
-	
+    
     '@Exemplo: GetExtensionByRegExp('Arquivo.extensao') Return: string(extensao)
     
     Function GetExtensionByRegExp(sFileName As String) As String
