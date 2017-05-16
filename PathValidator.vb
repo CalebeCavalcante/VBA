@@ -1,14 +1,14 @@
     '@Author: Calebe Cavalcante <calebesantos.cavalcante@gmail.com>
     
     '@Parameters: 
-	'#	sPath: Esperado nome de arquivo com a extensão ou diretório 
-	'#	IsFolderOnly: se true indica que o valor passado é de uma pasta (Folder) e não de um arquivo com extensão
-	
+    '#  sPath: Esperado nome de arquivo com a extensão ou diretório 
+    '#  IsFolderOnly: se true indica que o valor passado é de uma pasta (Folder) e não de um arquivo com extensão
+    
     '@Return: (Boolean) Retorna True se o Arquivo ou Pasta foi encontrado com sucesso
-	
+    
     '@Exemplo: PathValidator('c:\users\Desktop\Arquivo.extensao') Return: true
-	
-	Function PathValidator(sPath As String, Optional IsFolderOnly As Boolean) As Boolean
+    
+    Function PathValidator(sPath As String, Optional IsFolderOnly As Boolean) As Boolean
     Dim sCheck As String
     
         On Error GoTo Fail
