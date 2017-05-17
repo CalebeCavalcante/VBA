@@ -4,7 +4,7 @@ Adicionar o número de linha dentro do código VBA. Mesma funcionalidade ofereci
 
 Numerando as linhas do seu código VBA, permite utilizar o <b>Err.Number</b> para apontar a linha exata onde o ocorreu o erro do código.
 
-Maioires explicações em [Track Line Numbers to Pinpoint the Location of a Crash](https://msdn.microsoft.com/en-us/library/ee358847(v=office.12).aspx)
+Maioires explicações sobre a funcionalidade Err.Number em [Track Line Numbers to Pinpoint the Location of a Crash](https://msdn.microsoft.com/en-us/library/ee358847(v=office.12).aspx)
 
 # Uso
 
