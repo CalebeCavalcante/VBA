@@ -4,4 +4,4 @@ Para todos os procedimentos nessa pasta pode ser necessário habilitar a dll "Mi
 
 # Procedimento
 
-Ir no VBE ( Alt + F11 ) >> Tools >> Add References >> Microsoft Scripting Runtime
+Ir no VBE ( Alt + F11 ) >> Tools >> References >> Microsoft Scripting Runtime - Marcar box
